@@ -57,8 +57,8 @@ y.describe()
 
 Xy.info()
 
-# sns.pairplot(Xy, vars=['fixed_acidity', 'volatile_acidity', 'citric_acid', 'residual_sugar', 'chlorides',
-#                              'free_sulfur_dioxide', 'total_sulfur_dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'quality'])
+sns.pairplot(Xy, vars=['fixed_acidity', 'volatile_acidity', 'citric_acid', 'residual_sugar', 'chlorides',
+                             'free_sulfur_dioxide', 'total_sulfur_dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'quality'])
 
 sns.countplot(x=Xy['quality'], label='Count')
 
